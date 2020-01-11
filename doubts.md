@@ -1,2 +1,5 @@
-- How are the wavfiles named? Any order followed?
-- What about noise?
+- How are the wavfiles named? Any order followed? [Clarified - No order followed. Naming is according to the bird id] 
+- What about noise? [Clarified - Noise has been trimmed from all 264 samples]
+- How was the trimming of songs done? On what grounds?
+- What does the extractedfeatures.py code do? (Step-by-step)
+- What is the ex.csv and extractedfeatures.csv? How do they differ?
