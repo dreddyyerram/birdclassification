@@ -16,6 +16,6 @@ Step 2: Extracting feature vector from audio files
 	- Extraction is done by the 'featureextraction.py' file
 	- 'extractedfeatures.csv' file is the generated dataset(it contains 14 columns: 13 MFCC features , Bird Label)
 	- 'featureextraction.py' file takes each wav file, resamples it and extracts MFCC features for every small chunk of audio segment of one wav file and append them to the dataset with the corresponding bird label from 'birdsong_metadata.csv'.
-	- This way one audio file produces more than 500 rows of data in 'extractedfeatures.csv'
+	- This way one audio file produces more than one row of data in 'extractedfeatures.csv'
 
   
